@@ -8,7 +8,18 @@
             <link rel="stylesheet" href="{{ asset('css/app.css') }}">
             <link rel="stylesheet" href="{{ asset('pickadate/lib/themes/default.css') }}">
             <link rel="stylesheet" href="{{ asset('pickadate/lib/themes/default.date.css') }}">
-    <meta class="foundation-mq"></head>
+    <meta class="foundation-mq">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137360748-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-137360748-1');
+</script>
+
+    </head>
     <body>
 
         <!-- Start Top Bar -->
